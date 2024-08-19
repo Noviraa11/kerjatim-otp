@@ -1,0 +1,160 @@
+* {
+  background-color: #DAEDEB;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  height: 95vh;
+  padding: 20px 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .logos {
+  justify-self: flex-start;
+  display: flex;
+} */
+
+.icons {
+  max-width: 100%;
+  width: 165px;
+  justify-self: flex-start;
+  display: flex;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #152536;
+  margin-top: 25px;
+}
+
+.code-input {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.code-label {
+  margin-bottom: 16px;
+  width: 397px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #6C757D;
+}
+
+.code-inputs {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.code-inputs input {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  text-align: center;
+  height: 60px;
+  width: 40px;
+
+  margin: 0 8px;
+  border-bottom: 2px solid #4f5b66;
+  font-size: 48px;
+}
+
+.code-inputs input:focus {
+  outline: none;
+}
+
+.code-inputs input:nth-child(3n) {
+  margin-right: 24px;
+}
+
+.btn {
+  max-width: 102px;
+  width: 100%;
+  background-color: #075E54;
+  border: none;
+  outline: none;
+  height: 45px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 45px 0;
+  cursor: pointer;
+}
+
+.resend {
+  color: #0D7569;
+  font-size: 14px;
+  line-height: 21px;
+  width: 136px;
+  margin-right: 5px;
+}
+
+.other {
+  font-size: 14px;
+  line-height: 21px;
+  color: #6C757D;
+  margin: 5px 0px 5px 0px;
+}
+
+.resends {
+  font-size: 14px;
+  line-height: 21px;
+  color: #6C757D;
+}
+
+.logouts {
+  font-size: 14px;
+  line-height: 21px;
+  color: #6C757D;
+}
+
+@media screen and (max-width: 991px) {
+  .code-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 104%;
+  }
+
+  .code-inputs input {
+    width: 40px;
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    padding: 20px;
+  }
+
+  .code-label {
+    width: fit-content;
+  }
+
+  .code-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 106%;
+  }
+
+  .code-inputs input {
+    width: 25px;
+    font-size: 28px;
+  }
+}
